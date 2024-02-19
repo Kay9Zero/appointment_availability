@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "appointment-availability"
+version = "0.1.0"
+description = ""
+authors = ["Kay9Zero <Kay9Zero@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.1"
+googlemaps = "^4.10.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
